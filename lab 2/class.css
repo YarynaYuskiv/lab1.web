@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* головні boxs */
+#darkgreybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%; 
+    height:600px;
+    background: #292d33;
+    flex-direction: column;
+}
+
+#lightgreybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%; 
+    height:139px;
+    background: #333333;
+}
+/* головні boxs end */
+
+/* весь text */
+#alltext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fontext{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#loremlight{
+    width:450px;
+    color: white;
+}
+
+.text{
+    color: white;
+    margin-top: 10px;
+}
+
+
+.alltext {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyf {
+    color: white;
+    width: 200px;
+    height: 50px;
+} 
+
+.loremtext {
+    color: white;
+    width: 450px;
+    height: 50px;
+    margin-top: 10px; 
+}
+/* весь text end*/
+
+/* вміст greybox*/
+#centralbox{
+    margin-bottom: 50px;
+}
+
+.rov1{
+    display: flex; 
+}
+
+.rov2{
+    display: flex;
+    margin-top: 20px; 
+}
+
+/* Consultancy and Agile відступи*/
+#c1{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#c2{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* Consultancy and Agile відступи end*/
+
+.img{
+    display: flex;
+    width:65px; 
+    height:70px;
+    margin-top: 25px;
+}
+
+.litleboxs{
+    border-radius: 10%;
+    width:225px; 
+    height:150px;
+    background: #484D53;  
+    display: flex;
+    justify-content: center;
+}
+/* вміст greybox end*/
+
+
+
+
+
